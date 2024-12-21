@@ -1,10 +1,22 @@
 {
   "manifest_version": 3,
-  "name": "Bob's Extension!",
-  "description": "Base Level Extension",
+  "name": "Markify Intranet",
+  "description": "Built-in function in Intranet for calculation of marks does not work. There is a solution!",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "logo.jpg"
+    "default_icon": "images/logo.png"
+  },
+  "content_scripts": [
+      {
+        "js": [
+          "scripts/content.js"
+        ],
+        "matches": [
+          "https://intranet.wiut.uz/CourseworkUpload/ViewMarks?courseworkID=*"
+        ]
+      }
+    ],
+  "icons": {
+    "128": "images/logo.png"
   }
 }
