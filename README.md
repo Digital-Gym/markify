@@ -2,7 +2,7 @@
 
 This Chrome extenstion will automatically calculate your total mark in the WIUT Intranet.
 
-<img src='./images/[only used in readme]screenshot.jpg' alt='img'>
+<img src='./images/only used in readme_screenshot.jpg' alt='img'>
 
 *Calculated field was added*
 
