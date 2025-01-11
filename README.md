@@ -6,7 +6,11 @@ This Chrome extenstion will automatically calculate your total mark in the WIUT 
 
 *Calculated field was added*
 
-## Use it
+## Installation
+### Automatic
+- Just go to [this link](https://chromewebstore.google.com/detail/markify-intranet/oecblebimehddgocfkanackbenlifkjh?hl=ru)
+
+### Manual
 For now only manual installation is available.
 
 1. Download the repo
@@ -19,3 +23,13 @@ For now only manual installation is available.
 6. Enjoy.
 
 *More comprehensive guide: [Click](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=ru#load-unpacked)*
+
+
+## How to use?
+After installation, you are good to go. Nothing extra is needed.
+Whenever you visit a page of intranet for provisional marks, Markify will append
+calculated value to the header of that page *(shown in photo above)*
+
+## Story
+Interestingly, intranet already has this feature.
+However, for some reason it is not used in the student interface.
