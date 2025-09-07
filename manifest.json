@@ -1,18 +1,26 @@
 {
   "manifest_version": 3,
   "name": "Markify Intranet",
-  "description": "Built-in function in Intranet for calculation of marks does not work. There is a solution!",
-  "version": "1.0",
+  "description": "Automatic calculator of average marks and GPA for Intranet/SRS!",
+  "version": "2.0",
   "action": {
     "default_icon": "images/logo.png"
   },
   "content_scripts": [
       {
         "js": [
-          "scripts/content.js"
+          "scripts/intranet/averageMark.js"
         ],
         "matches": [
           "https://intranet.wiut.uz/CourseworkUpload/ViewMarks?courseworkID=*"
+        ]
+      },
+      {
+        "js": [
+          "scripts/srs/gpa.js"
+        ],
+        "matches": [
+          "https://srs.wiut.uz/Marks?courseId=*"
         ]
       }
     ],
