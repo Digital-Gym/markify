@@ -1,8 +1,9 @@
 # Markify Intranet
 
-This Chrome extenstion will automatically calculate your total mark in the WIUT Intranet.
+This Chrome extenstion will automatically calculate your total mark and GPA in the WIUT Intranet/SRS.
 
 <img src='./images/only used in readme_screenshot.jpg' alt='img'>
+<img src='./images/srs.png' alt='img srs gpa' width="600">
 
 *Calculated field was added*
 
